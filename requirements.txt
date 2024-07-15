@@ -3,7 +3,6 @@ openai
 faiss-cpu
 numpy
 typing-extensions
-sqlite3
 colorama
 gradio
 pandas
