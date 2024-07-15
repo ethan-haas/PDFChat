@@ -1,4 +1,5 @@
 # PDF Search Engine
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1wToEH__f8vQOhSnMHm1rSC5TlnB8eyX6?usp=sharing)
 
 The PDF Search Engine allows users to upload PDF files, extract text from them, and query the extracted content using OpenAI's language models. The extracted content is indexed using FAISS, allowing for efficient similarity searches to answer user questions. The application also provides functionality to save query history, generate word clouds, and manage settings.
 
