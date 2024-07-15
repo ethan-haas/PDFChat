@@ -1,0 +1,13 @@
+os
+json
+PyPDF2
+openai
+faiss-cpu
+numpy
+typing-extensions
+sqlite3
+colorama
+gradio
+pandas
+wordcloud
+matplotlib
