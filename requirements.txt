@@ -1,4 +1,3 @@
-os
 json
 PyPDF2
 openai
