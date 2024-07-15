@@ -15,15 +15,6 @@ The PDF Search Engine allows users to upload PDF files, extract text from them, 
     pip install -r requirements.txt
     ```
 
-3. **Set Up OpenAI API Key:**
-    - Obtain an API key from [OpenAI](https://platform.openai.com/signup/).
-    - Create a `settings.json` file in the project root directory with the following content:
-      ```json
-      {
-          "api_key": "YOUR_API_KEY_HERE"
-      }
-      ```
-
 ## Usage
 
 1. **Run the Application:**
