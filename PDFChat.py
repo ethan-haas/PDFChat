@@ -16,7 +16,7 @@ from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 import threading
 
-class PDFSearcher:
+class PDFChat:
     def __init__(self):
         self.pdf_files = []
         self.chunks: List[Dict[str, str]] = []
@@ -190,7 +190,7 @@ Context: {context}
             self.client = None
 
 
-qa_system = PDFSearcher()
+qa_system = PDFChat()
 current_query_thread = None
 
 
@@ -292,8 +292,8 @@ def main():
     init_db()
 
     # Define Gradio interface
-    with gr.Blocks(title="PDF Search Engine") as demo:
-        gr.Markdown("# PDF Search Engine")
+    with gr.Blocks(title="PDF Chat") as demo:
+        gr.Markdown("# PDF Chat")
 
         with gr.Tabs():
             with gr.TabItem("Home"):
